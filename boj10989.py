@@ -8,3 +8,5 @@ for i in range(N) :
 nums.sort()
 for a in nums :
     print(a)
+
+#test
