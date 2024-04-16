@@ -1,17 +1,17 @@
-text_T = int(input())
+N = int(input())
+text_lists = []
 
-text = [0 for i in range(text_T)]
+T = []
 
-for i in range(text_T) :
-    text[i] = input()
-    
-text = list(set(text))
+for i in range(N) :
+    T.append(input())
 
-for a in range(text_T) :
-    for b in range(1,len(text)) :
-        if len(text[b-1]) > len(text[b]) :
-            temp = text[b-1]
-            text[b-1] = text[b]
-            text[b] = text[b-1]
-            
-print(text)
+T = list(set(T))
+T.sort(key=len)
+
+for a in range(51) :
+    temp_lists = []
+    for t in T :
+        if len(t) == 
+
+print(T)
